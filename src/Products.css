@@ -1,0 +1,35 @@
+#productsBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#productsBlock main{
+    flex-basis: 24%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#productsBlock main img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+#productsBlock main h2{
+    font-weight: bold;
+    color: royalblue;
+    font-size: 16px;
+}
+.addToCart{
+    background-color: royalblue;
+    border-radius: 3px;
+    color: #fff;
+    padding: 8px;
+}
+.OutOfStock{
+    background-color: #d13f3f;
+    border:none;
+    color: #111;
+    cursor: not-allowed;
+    padding: 8px;
+}
+

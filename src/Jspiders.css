@@ -1,0 +1,25 @@
+#sectionBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border:  1px solid;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #fff;
+}
+
+
+table th{
+    border: 1px solid;
+    height: 50px; 
+    font-size: 25px;    
+}
+tbody tr td{
+    border:  1px solid;
+    text-align: center; 
+    height:30px ; 
+    font-size: 20px;   
+}
